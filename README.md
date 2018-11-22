@@ -5,11 +5,13 @@ with support of Firebase Authentication & Cloud Firestore database.
 
 This project was used during the [KBTG TechJam 2018: Code Squad](https://www.techjam.tech/__tj200718/) contest.
 
+
 ## Set up the website
 
 1. Create a new Firebase project and enable Firebase authentication with Google Account.
-2. Set up Cloud Firestore database with [these rules (see below)](#Database-rules).
-3. White-list users to allow them to access the web application by adding each user to the `users` collection in the Cloud Firestore via the web console, according to the [database fields structure (see below)](#Database-structure).
+2. Populate API keys and other related data inside `.env.local` file.
+3. Set up Cloud Firestore database with [these rules (see below)](#Database-rules).
+4. White-list users to allow them to access the web application by adding each user to the `users` collection in the Cloud Firestore via the web console, according to the [database fields structure (see below)](#Database-structure).
 
 ## Cloud Firestore database structure
 
