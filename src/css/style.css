@@ -1,0 +1,13 @@
+div.math {
+  overflow-x: auto;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i");
+html {
+  font-size: 100%;
+}
+.icon-pad-left {
+  margin-left: 0.5rem;
+}
+.icon-pad-right {
+  margin-right: 0.5rem;
+}
